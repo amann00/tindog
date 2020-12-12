@@ -1,0 +1,186 @@
+
+
+#title {
+  background-color: #ee0e51;
+  padding: 3% 15% 11%;
+}
+
+
+
+/*  HEADING TAGS */
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+}
+
+
+
+/* NAVIGATION BAR and HEADLINE */
+.navbar-brand h1 {
+  font-family: 'Ubuntu';
+}
+#Navigation {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+.Headline {
+  color: white;
+  font-size: 3.5rem;
+  line height: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* BUTTONS */
+.Download-Button {
+  margin: 6% 3% 5% 0;   <!-- Top, Right, Left, Bottom -->
+}
+
+
+
+/* FONT AWESOME */
+.fa-bullseye, .fa-check-circle, .fa-heart {
+  color: #f73859;
+  margin-bottom: 0.6rem;
+}
+.fa-bullseye:hover, .fa-check-circle:hover, .fa-heart:hover {
+  color: #df5e88;
+}
+.Rights-Logo {
+  font-size: 0.7rem;
+}
+
+
+
+/* FEATURES SECTION */
+.Points {
+  font-family: "Montserrat";
+}
+p {
+  color: #534e52;
+}
+
+
+
+/* IMAGES */
+.Review-Pic {
+  width: 14rem;
+  height: 14rem;
+  margin-bottom: 5%;
+  border-radius: 20%;
+}
+.iPhone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;     /* It will take the Image away from the natural flow of document. */
+  right: 30%;
+}
+
+
+
+/* FEATURES SECTION */
+#features {
+  padding: 12% 15%;
+  background-color: white;
+  text-align: center;
+  position: relative;     /* Ther relative Z-Index 1 will overwrite the 'iphone-img' and the result will appear as required. For explained working read your Notes.  */
+  /* z-index: 1; */
+}
+#features-box {
+  text-align: center;
+  /* padding: 4.5%; */
+}
+
+
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  text-align: center;
+  background-color: #f56a79;
+  font-family: 'Montserrat';
+  color: white;
+}
+.carousel-item {
+  padding: 4% 20%;     <!-- Padding moved from #testimonials to .carousel-item in order to move the carousel buttons outward -->
+}
+
+
+
+/* PRESS SECTION */
+#press {
+  background-color: #f56a79;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+.company-logos {
+  width: 17%;
+  margin: 0 4rem 2rem;   <!-- Top   Left-Right   Bottom -->
+}
+
+
+
+/* PRICING-CARD SECTION */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/***********************************************************/
+/* MEDIA QUERY */
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .iPhone-img {
+    position: static;
+  }
+}
+
+
+/***********************************************************/
+
+/* BOTTOM Section */
+#Bottom {
+  background-color: #ee0e51;
+  padding: 8% 28%;
+  color: white;
+  text-align: center;
+}
+#bottom-heading {
+  font-family: 'Montserrat';
+  line-height: 4rem;
+  font-size: 2.8rem;
+}
+
+
+
+/* FOOTER SECTION */
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+  color: #534e52;
+}
+.contacts {
+  font-size: 2.5rem;
+  padding: 3% 7%;
+}
+.icons {
+  margin: 0 1.5%;
+  color: #534e52;
+}
+.icons:hover {
+  font-size: 2.6rem;
+  color: black;
+}
